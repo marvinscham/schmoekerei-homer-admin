@@ -3,11 +3,13 @@ title: 'Schmökerei'
 subtitle: 'Home'
 logo: 'logo.png'
 
-# message:
-#  title: 'Test Message'
-#  style: 'is-info'
-#  icon: 'fa fa-info'
-#  content: 'Testing for text color.'
+message:
+  url: 'https://checksch.de/hook/messages.php'
+  mapping:
+    title: 'a-title'
+    content: 'a-content'
+  style: 'is-info'
+  icon: 'fa fa-info'
 
 header: false
 hotkey:
