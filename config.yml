@@ -10,9 +10,8 @@ logo: 'logo.png'
 #  content: 'Innerhalb der Schmökerei werden derzeit einige Änderungen vorgenommen, welche dazu führen können, dass Dienste zeitweise nicht erreichbar sind oder Links in diesem Dashboard nicht mehr funktionieren.'
 
 header: false
-  hotkey:
-    search: 'Shift'
-    
+hotkey:
+  search: 'Shift'
 footer: '<p><a href="https://marvinscham.de">Made with <i class="far fa-heart"></i> by <img src="../assets/tools/ms-sw.png" style="height: 1em;" alt="MS"></a></p>'
 
 stylesheet:
