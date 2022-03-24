@@ -80,12 +80,11 @@ services:
 
       - name: 'Cronitor'
         logo: 'assets/tools/cronitor.png'
-        subtitle: 'Externes Monitoring → Redundanz'  
-
+        subtitle: 'Externes Monitoring → Redundanz'
 
   - name: 'Verwaltung'
     icon: 'fas fa-tools'
-    items:    
+    items:
       - name: 'Keycloak Admin Panel'
         type: Ping
         logo: 'assets/tools/keycloak.png'
@@ -143,7 +142,7 @@ services:
         url: 'https://github.com/marvinscham'
         target: '_blank'
 
-      - name: 'Checksch?'`
+      - name: 'Checksch?'
         logo: 'assets/tools/checksch.png'
         subtitle: 'Hostet PHP-Projekte'
         url: 'https://checksch.de'
@@ -153,4 +152,3 @@ services:
         logo: 'assets/tools/marvinscham.png'
         url: 'https://marvinscham.de'
         target: '_blank'
-    
