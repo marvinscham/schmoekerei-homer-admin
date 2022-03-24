@@ -3,19 +3,23 @@ title: 'Schmökerei'
 subtitle: 'Home'
 logo: 'logo.png'
 
-#message:
-#  title: 'Wartungsarbeiten'
-#  style: 'is-warning'
-#  icon: 'fa fa-exclamation-triangle'
-#  content: 'Innerhalb der Schmökerei werden derzeit einige Änderungen vorgenommen, welche dazu führen können, dass Dienste zeitweise nicht erreichbar sind oder Links in diesem Dashboard nicht mehr funktionieren.'
+message:
+  title: 'Test Message'
+  style: 'is-info'
+  icon: 'fa fa-info'
+  content: 'Testing for text color.'
 
 header: false
 hotkey:
   search: 'Shift'
-footer: '<p><a href="https://marvinscham.de">Made with <i class="far fa-heart"></i> by <img src="../assets/tools/ms-sw.png" style="height: 1em;" alt="MS"></a></p>'
+footer: '<p class="footer"><a href="https://marvinscham.de">Made with <i class="far fa-heart"></i> by <img src="../assets/tools/ms-sw.png" alt="MS"></a></p>'
 
 stylesheet:
   - 'assets/custom.css'
+
+default:
+  layout: columns
+  colorTheme: 'light'
 
 columns: '4' # You can change this to any number that is a factor of 12: (1, 2, 3, 4, 6, 12)
 theme: default
@@ -51,7 +55,7 @@ colors:
 
 services:
   - name: 'Monitoring'
-    icon: 'fas fa-monitor-heart-rate'
+    icon: 'fas fa-check-circle'
     items:
       - name: 'Uptime Kuma //dev'
         logo: 'assets/tools/uptime-kuma-dev.png'
@@ -67,7 +71,7 @@ services:
 
       - name: 'ChangeDetection.io'
         logo: 'assets/tools/changedetection.png'
-        subtitle: 'Überwacht Seiten auf Änderungen.'
+        subtitle: 'Überwacht Websites.'
         url: 'https://changes.schmökerei.de'
         target: '_blank'
 
@@ -79,14 +83,14 @@ services:
 
       - name: 'Cronitor'
         logo: 'assets/tools/cronitor.png'
-        subtitle: 'Externes Monitoring → Redundanz'
+        subtitle: 'Monitoring Redundanz'
 
   - name: 'Verwaltung'
     icon: 'fas fa-tools'
     items:
       - name: 'Keycloak Admin Panel'
         logo: 'assets/tools/keycloak.png'
-        subtitle: 'Berechtigungs- und SSO-Verwaltung.'
+        subtitle: 'SSO-Verwaltung.'
         url: 'https://auth.schmökerei.de/admin/'
         target: '_blank'
 
@@ -110,10 +114,10 @@ services:
 
       - name: 'Diun'
         logo: 'assets/tools/diun.png'
-        subtitle: 'Docker Image Update Notifier. Kein GUI, aber sehr süß.'
+        subtitle: 'Kein GUI, aber sehr süß.'
 
   - name: 'Projekte'
-    icon: 'fas fa-construction'
+    icon: 'fas fa-drafting-compass'
     items:
       - name: 'Natürlich Schön'
         logo: 'assets/tools/natuerlichschoen.png'
