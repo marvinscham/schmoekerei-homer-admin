@@ -12,6 +12,7 @@ logo: 'logo.png'
 header: false
   hotkey:
     search: 'Shift'
+    
 footer: '<p><a href="https://marvinscham.de">Made with <i class="far fa-heart"></i> by <img src="../assets/tools/ms-sw.png" style="height: 1em;" alt="MS"></a></p>'
 
 stylesheet:
