@@ -3,11 +3,11 @@ title: 'Schmökerei'
 subtitle: 'Home'
 logo: 'logo.png'
 
-message:
-  title: 'Test Message'
-  style: 'is-info'
-  icon: 'fa fa-info'
-  content: 'Testing for text color.'
+# message:
+#  title: 'Test Message'
+#  style: 'is-info'
+#  icon: 'fa fa-info'
+#  content: 'Testing for text color.'
 
 header: false
 hotkey:
