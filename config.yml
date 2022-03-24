@@ -9,8 +9,8 @@ message:
   icon: 'fa fa-exclamation-triangle'
   content: 'Innerhalb der Schmökerei werden derzeit einige Änderungen vorgenommen, welche dazu führen können, dass Dienste zeitweise nicht erreichbar sind oder Links in diesem Dashboard nicht mehr funktionieren.'
 
-header: true
-footer: true
+header: false
+footer: false
 
 stylesheet:
   - 'assets/custom.css'
