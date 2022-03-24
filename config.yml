@@ -52,21 +52,18 @@ services:
     icon: 'fas fa-monitor-heart-rate'
     items:
       - name: 'Uptime Kuma //dev'
-        type: Ping
         logo: 'assets/tools/uptime-kuma-dev.png'
         subtitle: 'Status der Container.'
         url: 'https://dev-status.schmökerei.de'
         target: '_blank'
 
       - name: 'Grafana'
-        type: Ping
         logo: 'assets/tools/grafana.png'
         subtitle: 'Monitoring.'
         url: 'https://grafana.schmökerei.de'
         target: '_blank'
 
       - name: 'ChangeDetection.io'
-        type: Ping
         logo: 'assets/tools/changedetection.png'
         subtitle: 'Überwacht Seiten auf Änderungen.'
         url: 'https://changes.schmökerei.de'
@@ -86,28 +83,24 @@ services:
     icon: 'fas fa-tools'
     items:
       - name: 'Keycloak Admin Panel'
-        type: Ping
         logo: 'assets/tools/keycloak.png'
         subtitle: 'Berechtigungs- und SSO-Verwaltung.'
         url: 'https://auth.schmökerei.de/admin/'
         target: '_blank'
 
       - name: 'Portainer'
-        type: Ping
         logo: 'assets/tools/portainer.png'
         subtitle: 'Docker-Verwaltung.'
         url: 'https://portainer.schmökerei.de'
         target: '_blank'
 
       - name: 'phpLDAPadmin'
-        type: Ping
         logo: 'assets/tools/phpldapadmin.png'
         subtitle: 'UI zur Nutzerverwaltung.'
         url: 'https://ldap.schmökerei.de'
         target: '_blank'
 
       - name: 'Freescout'
-        type: Ping
         logo: 'assets/tools/freescout.png'
         subtitle: 'Ticketing-System für Anfragen.'
         url: 'https://support.schmökerei.de'
