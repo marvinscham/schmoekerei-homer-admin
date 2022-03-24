@@ -146,3 +146,7 @@ body #app .card:hover,
 body #app .message {
   opacity: 87%;
 }
+
+body #app.is-light .message .message-body {
+  color: var(--text-subtitle);
+}

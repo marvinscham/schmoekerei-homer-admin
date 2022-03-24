@@ -19,7 +19,7 @@ stylesheet:
 
 default:
   layout: columns
-  colorTheme: 'light'
+  colorTheme: light
 
 columns: '4' # You can change this to any number that is a factor of 12: (1, 2, 3, 4, 6, 12)
 theme: default
@@ -52,6 +52,11 @@ colors:
     link: '#c1c1c1'
     link-hover: '#fafafa'
     background-image: '../assets/wallpaper.png'
+
+links:
+  - name: 'Home'
+    icon: 'fas fa-home'
+    url: 'https://schmökerei.de'
 
 services:
   - name: 'Monitoring'
