@@ -126,6 +126,10 @@ body #bighead .navbar a:hover {
   color: var(--link-hover);
 }
 
+body .footer {
+  text-align: center;
+}
+
 .footer i {
   color: #e21c1b;
 }
