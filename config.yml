@@ -8,6 +8,7 @@ message:
   mapping:
     title: 'a-title'
     content: 'a-content'
+  refreshInterval: 10000
   style: 'is-info'
   icon: 'fa fa-info'
 
