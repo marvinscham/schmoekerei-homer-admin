@@ -1,0 +1,156 @@
+---
+title: 'Schmökerei'
+subtitle: 'Home'
+logo: 'logo.png'
+
+message:
+  title: 'Wartungsarbeiten'
+  style: 'is-warning'
+  icon: 'fa fa-exclamation-triangle'
+  content: 'Innerhalb der Schmökerei werden derzeit einige Änderungen vorgenommen, welche dazu führen können, dass Dienste zeitweise nicht erreichbar sind oder Links in diesem Dashboard nicht mehr funktionieren.'
+
+header: true
+footer: true
+
+stylesheet:
+  - 'assets/custom.css'
+
+columns: '4' # You can change this to any number that is a factor of 12: (1, 2, 3, 4, 6, 12)
+theme: default
+colors:
+  light:
+    highlight-primary: '#fff5f2'
+    highlight-secondary: '#fff5f2'
+    highlight-hover: '#bebebe'
+    background: '#12152B'
+    card-background: '#fff5f2'
+    text: '#ffffff'
+    text-header: '#fafafa'
+    text-title: '#000000'
+    text-subtitle: '#111111'
+    card-shadow: rgba(0, 0, 0, 0.5)
+    link: '#3273dc'
+    link-hover: '#2e4053'
+    background-image: '../assets/wallpaper-light.jpeg' # Change wallpaper.jpeg to the name of your own custom wallpaper!
+  dark:
+    highlight-primary: '#181C3A'
+    highlight-secondary: '#181C3A'
+    highlight-hover: '#1F2347'
+    background: '#12152B'
+    card-background: '#181C3A'
+    text: '#eaeaea'
+    text-header: '#7C71DD'
+    text-title: '#fafafa'
+    text-subtitle: '#8B8D9C'
+    card-shadow: rgba(0, 0, 0, 0.5)
+    link: '#c1c1c1'
+    link-hover: '#fafafa'
+    background-image: '../assets/wallpaper.jpeg'
+
+services:
+  - name: 'Monitoring'
+    icon: 'fas fa-monitor-heart-rate'
+    items:
+      - name: 'Uptime Kuma //dev'
+        type: Ping
+        logo: 'assets/tools/uptime-kuma-dev.png'
+        subtitle: 'Status der Container.'
+        url: 'https://dev-status.schmökerei.de'
+        target: '_blank'
+
+      - name: 'Grafana'
+        type: Ping
+        logo: 'assets/tools/grafana.png'
+        subtitle: 'Monitoring.'
+        url: 'https://grafana.schmökerei.de'
+        target: '_blank'
+
+      - name: 'ChangeDetection.io'
+        type: Ping
+        logo: 'assets/tools/changedetection.png'
+        subtitle: 'Überwacht Seiten auf Änderungen.'
+        url: 'https://changes.schmökerei.de'
+        target: '_blank'
+
+      - name: 'Gotify'
+        logo: 'assets/tools/gotify.png'
+        subtitle: 'Push-Benachrichtigungen.'
+        url: 'https://gotify.schmökerei.de'
+        target: '_blank'
+
+      - name: 'Cronitor'
+        logo: 'assets/tools/cronitor.png'
+        subtitle: 'Externes Monitoring → Redundanz'  
+
+
+  - name: 'Verwaltung'
+    icon: 'fas fa-tools'
+    items:    
+      - name: 'Keycloak Admin Panel'
+        type: Ping
+        logo: 'assets/tools/keycloak.png'
+        subtitle: 'Berechtigungs- und SSO-Verwaltung.'
+        url: 'https://auth.schmökerei.de/admin/'
+        target: '_blank'
+
+      - name: 'Portainer'
+        type: Ping
+        logo: 'assets/tools/portainer.png'
+        subtitle: 'Docker-Verwaltung.'
+        url: 'https://portainer.schmökerei.de'
+        target: '_blank'
+
+      - name: 'phpLDAPadmin'
+        type: Ping
+        logo: 'assets/tools/phpldapadmin.png'
+        subtitle: 'UI zur Nutzerverwaltung.'
+        url: 'https://ldap.schmökerei.de'
+        target: '_blank'
+
+      - name: 'Freescout'
+        type: Ping
+        logo: 'assets/tools/freescout.png'
+        subtitle: 'Ticketing-System für Anfragen.'
+        url: 'https://support.schmökerei.de'
+        target: '_blank'
+
+      - name: 'Diun'
+        logo: 'assets/tools/diun.png'
+        subtitle: 'Docker Image Update Notifier. Kein GUI, aber sehr süß.'
+
+  - name: 'Projekte'
+    icon: 'fas fa-construction'
+    items:
+      - name: 'Natürlich Schön'
+        logo: 'assets/tools/natuerlichschoen.png'
+        url: 'https://natürlich-schön.org'
+        target: '_blank'
+      - name: 'DJ Logarhythm'
+        logo: 'assets/tools/logarhythm.png'
+        url: 'https://djlogarhythm.com'
+        target: '_blank'
+      - name: 'MasteryChart'
+        logo: 'assets/tools/masterychart.png'
+        url: 'https://masterychart.com'
+        target: '_blank'
+
+  - name: 'Dev'
+    icon: 'fas fa-user'
+    items:
+      - name: 'GitHub'
+        logo: 'assets/tools/github.png'
+        subtitle: 'Marvins Notlösungsdeponie.'
+        url: 'https://github.com/marvinscham'
+        target: '_blank'
+
+      - name: 'Checksch?'`
+        logo: 'assets/tools/checksch.png'
+        subtitle: 'Hostet PHP-Projekte'
+        url: 'https://checksch.de'
+        target: '_blank'
+
+      - name: 'Homepage'
+        logo: 'assets/tools/marvinscham.png'
+        url: 'https://marvinscham.de'
+        target: '_blank'
+    
