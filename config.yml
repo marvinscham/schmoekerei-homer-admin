@@ -67,8 +67,8 @@ services:
     items:
       - name: 'Uptime Kuma //dev'
         logo: 'assets/tools/uptime-kuma-dev.png'
-        subtitle: 'Status der Container.'
-        url: 'https://dev-status.schmökerei.de'
+        subtitle: 'Status des Backends.'
+        url: 'https://status.schmökerei.de/status/dev'
         target: '_blank'
 
       - name: 'Grafana'
